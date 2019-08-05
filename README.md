@@ -108,10 +108,17 @@ Great! Now we can create our front end...
 
 ### React app
 
-In the root of your rails directory, create a new React app with `create-react-app client`.
+In the root of your rails directory, create a new React app with `create-react-app client`. Get rid of the boilerplate annoyances, and start hacking!
+
+This is going to be very similar to how you've built React apps using external APIs before, so please reference old lessons and projects if you get stuck. Just remember you will be making axios calls to your own API, i.e. using http://localhost:3000/cats.
 
 You can get creative with your app here. Remember the many options we have for dealing with an API in React. We can create a helper file to create our axios calls, or we could create them directly in App.jsx or in any other component. Just make sure you can view the following resources on the front end:
 - All cats
 - All colonies
 - One cat, with all the colonies it lives in
 - One colony, with all the cats who live there
+
+## BONUS!
+
+- Create `create`, `delete`, and `edit` routes and views for your cats and colonies.
+- Style it up!
