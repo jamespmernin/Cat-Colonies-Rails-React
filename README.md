@@ -12,7 +12,7 @@ We're going to build a Rails API with two tables -- cats and colonies -- that ha
 - Fork and clone this repo.
 - `cd` into the cloned repo and create a new rails app with the `--api` argument so that we can create our own API that will be accessed through a front end.
 ```
-rails new cat-colonies --api --db=postgresql
+rails new cat-colonies --api --database=postgresql
 ```
 
 ### The models
