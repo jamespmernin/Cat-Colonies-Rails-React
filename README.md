@@ -7,7 +7,7 @@ We're going to build a Rails API with two tables -- cats and colonies -- that ha
 ### Setup
 
 - Fork and clone this repo.
-- `cd` into the cloned repo and create a new rails app with the `--api` argument so that we can create out own API that will be accessed through a front end.
+- `cd` into the cloned repo and create a new rails app with the `--api` argument so that we can create our own API that will be accessed through a front end.
 ```
 rails new cat-colonies --api --db=postgresql
 ```
@@ -79,7 +79,7 @@ class CatsController < ApplicationController
 end
 ```
 
-Launch the rails server with `rails s` and visit http://localhost:3000/cats and http://localhost:3000/cats/1. You should see JSON data showing the wittle kitties you created.
+Launch the rails server with `rails s` and visit http://localhost:3000/cats, http://localhost:3000/cats/1, http://localhost:3000/colonies, and http://localhost:3000/colonies/1. You should see JSON data showing the wittle kitties & their outdoor homes!
 
 ## Setting up the front end
 
