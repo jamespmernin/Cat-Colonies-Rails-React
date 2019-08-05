@@ -1,5 +1,8 @@
 # Cat Colonies App!
 
+<img src="alfie.jpg" width="500" />
+^^ Alfie!!
+
 ### Overview
 
 We're going to build a Rails API with two tables -- cats and colonies -- that have a many-to-many relationship. We will also create a React app that interacts with our API! (Don't know about cat colonies in NYC? check them out [here](https://www.neighborhoodcats.org/)!)
