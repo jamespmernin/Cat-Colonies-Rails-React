@@ -104,6 +104,8 @@ config.middleware.use Rack::Cors do
 end
 ```
 
+## BONUS!
+
 Great! Now we can create our front end...
 
 ### React app
@@ -117,8 +119,5 @@ You can get creative with your app here. Remember the many options we have for d
 - All colonies
 - One cat, with all the colonies it lives in
 - One colony, with all the cats who live there
-
-## BONUS!
-
 - Create `create`, `delete`, and `edit` routes and views for your cats and colonies.
 - Style it up!
