@@ -12,7 +12,7 @@ We're going to build a Rails API with two tables -- cats and colonies -- that ha
 - Fork and clone this repo.
 - `cd` into the cloned repo and create a new rails app with the `--api` argument so that we can create our own API that will be accessed through a front end.
 ```
-rails new cat-colonies --api --database=postgresql
+rails new cat-colonies -MT --skip-active-storage --api --database=postgresql
 ```
 Also run `rails db:create` to create the database.
 
@@ -52,7 +52,6 @@ cat1 = Cat.create(name: "Alfie", breed: "Tabby", age: 3)
 colony1 = Colony.create(name: "Greenpoint kitty kastle", borough: "Brooklyn")
 colony1.cats.push(cat1)
 ```
-Reference today's [lesson](https://git.generalassemb.ly/sei-nyc-pandas/rails_api_many2many) for more on the seed data.
 
 Now that your data is created, run `rails db:seed`.
 
@@ -109,7 +108,7 @@ Great! Now we can create our front end...
 
 ### React app
 
-In the root of your rails directory, create a new React app with `create-react-app client`. Get rid of the boilerplate annoyances, and start hacking!
+In the root of your rails directory, create a new React app with `npx create-react-app client`. Get rid of the boilerplate annoyances, and start hacking!
 
 This is going to be very similar to how you've built React apps using external APIs before, so please reference old lessons and projects if you get stuck. Just remember you will be making axios calls to your own API, i.e. using http://localhost:3000/cats.
 
